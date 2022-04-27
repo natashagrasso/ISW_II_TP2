@@ -3,6 +3,6 @@ import msvcrt
 
 df = pd.read_csv("dataset.csv", index_col="id")
 print(df)
-print(df.tail())
+print(df.head())
 
 msvcrt.getch()
